@@ -51,6 +51,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="session_03\" />
+    <Folder Include="session_04\" />
+    <Folder Include="session_05\" />
+    <Folder Include="session_06\" />
+    <Folder Include="session_07\" />
+    <Folder Include="session_08\" />
+    <Folder Include="session_09\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
