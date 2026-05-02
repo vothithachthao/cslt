@@ -169,4 +169,3 @@ namespace _cslt.session_03
             }
         }
     }
-}
