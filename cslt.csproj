@@ -62,6 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="session_01\exercise-1.cs" />
     <Compile Include="session_02\exercise-2.cs" />
+    <Compile Include="session_03\exercise-03.cs" />
     <Compile Include="session_03\exercise-02.cs" />
     <Compile Include="session_03\exercise-3.cs" />
   </ItemGroup>
