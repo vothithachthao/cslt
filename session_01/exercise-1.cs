@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _cslt.session_01
 {
     internal class exercise_1
     {
-        static void Main(string[] args)
+        static void Main1()
         {
             while (true)
             {
