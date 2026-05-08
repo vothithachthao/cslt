@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _cslt.session_02
 {
@@ -242,7 +239,7 @@ namespace _cslt.session_02
             int[] a = { 1, 2, 3 };
             int[] b = { 1, 5, 3 };
 
-            Console.WriteLine(a[0] == b[0] || a[^1] == b[^1]);
+            Console.WriteLine(a[0] == b[0] || a[a.Length - 1] == b[b.Length - 1]);
         }
 
         // 50
