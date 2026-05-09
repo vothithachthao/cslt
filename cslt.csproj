@@ -66,12 +66,12 @@
     <Compile Include="session_03\exercise-03.cs" />
     <Compile Include="session_03\exercise-02.cs" />
     <Compile Include="session_03\exercise-3.cs" />
+    <Compile Include="session_04\exercse-5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="session_04\" />
     <Folder Include="session_05\" />
     <Folder Include="session_06\" />
     <Folder Include="session_07\" />
