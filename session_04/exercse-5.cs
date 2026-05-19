@@ -37,7 +37,6 @@ namespace _cslt.session_04
             {
                 result *= i;
             }
-
             return result;
         }
         // 3. Check prime number
@@ -115,7 +114,7 @@ namespace _cslt.session_04
             return true;
         }
 
-        public static void Main(string[] args)
+        public static void Main5(string[] args)
         {
             // 1. Maximum number
             int x = 5, y = 3, z = 9;
