@@ -160,7 +160,7 @@ namespace _cslt.session_05
         }
     }
     //Tinh luy thua
-    internal class PBai9_LuyThua
+    internal class Bai9_LuyThua
     {
         static double TinhLuyThua(double x, int y)
         {
