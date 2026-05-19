@@ -67,6 +67,7 @@
     <Compile Include="session_03\exercise-02.cs" />
     <Compile Include="session_03\exercise-3.cs" />
     <Compile Include="session_04\exercse-5.cs" />
+    <Compile Include="session_05\exercise-7.cs" />
     <Compile Include="session_05\exercise-6.cs" />
   </ItemGroup>
   <ItemGroup>
