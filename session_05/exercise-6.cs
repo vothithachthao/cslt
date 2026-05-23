@@ -152,7 +152,7 @@ namespace _cslt.session_05
             }
             return dem;
         }
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             Console.Write("Nhap chuoi: ");
             string s = Console.ReadLine();
