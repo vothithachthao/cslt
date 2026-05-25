@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 class MatrixProgram
 {
-    static void Main()
+    static void Main6()
     {
         // 1. Prompt for N and M
         Console.Write("Enter number of rows (N): ");
