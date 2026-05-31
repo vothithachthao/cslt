@@ -403,7 +403,7 @@ namespace _cslt.session_07.exercise_8
 
         class Program
         {
-            static void Main()
+            static void Main18()
             {
                 string baseString = "some text";
 
@@ -434,6 +434,57 @@ namespace _cslt.session_07.exercise_8
                     Console.WriteLine($"Comparing '{baseString}' with '{compareString}': {result}");
                 }
             }
+        }
+        // Compare the current string instance with another string
+        static void Main19()
+        {
+            CompareStrings("apple", "apple");     // Equal
+            CompareStrings("orange", "apple");    // Follows
+            Console.WriteLine();
+            CompareStrings("apple", "orange");    // Precedes
+            CompareStrings("ABC", "abc");         // Precedes
+            CompareStrings("xyz", "XYZ");         // Follows
+        }
+
+        static void CompareStrings(string str1, string str2)
+        {
+            int result = str1.CompareTo(str2);
+            if (result == 0)
+            {
+                Console.WriteLine("The strings occur in the same position in the sort order.");
+            }
+            else if (result > 0)
+            {
+                Console.WriteLine("The first string follows the second in the sort order.");
+            }
+            else
+            {
+                Console.WriteLine("The first string precedes the second in the sort order.");
+            }
+        }
+        // Concatenate three objects, objects with a variable and a 3-element object array
+        static void Main()
+        {
+            string searchString = "abcЙ ࠉ";
+            string targetString = "Å";
+            Console.WriteLine($"Search for the target string \"{targetString}\" in the string \"{searchString}\".");
+            Console.WriteLine();
+            CultureInfo culture = new CultureInfo("en-GB");
+            Console.WriteLine($"Using the English (United Kingdom) - \"{culture.Name}\" culture:");
+            // Case-sensitive
+            Console.WriteLine("Case sensitive:");
+            bool result1 = culture.CompareInfo.IsSuffix(
+                searchString,
+                targetString,
+                CompareOptions.None);
+            Console.WriteLine($" The string to search ends with the target string: {result1}");
+            // Case-insensitive
+            Console.WriteLine("Case insensitive:");
+            bool result2 = culture.CompareInfo.IsSuffix(
+                searchString,
+                targetString,
+                CompareOptions.IgnoreCase);
+            Console.WriteLine($" The string to search ends with the target string: {result2}");
         }
     }
 }
