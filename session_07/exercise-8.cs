@@ -463,7 +463,7 @@ namespace _cslt.session_07.exercise_8
             }
         }
         // Concatenate three objects, objects with a variable and a 3-element object array
-        static void Main()
+        static void Main20()
         {
             string searchString = "abcЙ ࠉ";
             string targetString = "Å";
