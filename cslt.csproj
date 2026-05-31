@@ -70,6 +70,7 @@
     <Compile Include="session_05\exercise-7.cs" />
     <Compile Include="session_05\exercise-6.cs" />
     <Compile Include="session_06\exercise1.cs" />
+    <Compile Include="session_07\exercise-8.cs" />
     <Compile Include="session_07\exercise strings.cs" />
   </ItemGroup>
   <ItemGroup>
