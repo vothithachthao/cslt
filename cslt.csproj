@@ -58,7 +58,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="session_01\exercise-1.cs" />
     <Compile Include="session_02\exercise-2.cs" />
@@ -73,13 +72,14 @@
     <Compile Include="session_06\exercise1.cs" />
     <Compile Include="session_07\exercise-8.cs" />
     <Compile Include="session_07\exercise strings.cs" />
+    <Compile Include="session_09\exercise_10.cs" />
+    <Compile Include="session_09\exercise-9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="session_08\" />
-    <Folder Include="session_09\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
